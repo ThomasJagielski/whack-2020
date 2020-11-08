@@ -6,11 +6,11 @@ module test_temp;
   parameter W = 16;
 
   // Regs and wires for input/output
-  reg [W-1:0] temp1 = 2;
-  reg [W-1:0] temp2 = 2;
-  reg [W-1:0] temp3 = 4;
-  reg [W-1:0] temp4 = 4;
-  reg [W-1:0] temp_compare = 2;
+  reg [W-1:0] temp1 = 100;
+  reg [W-1:0] temp2 = 101;
+  reg [W-1:0] temp3 = 99;
+  reg [W-1:0] temp4 = 98;
+  reg [W-1:0] temp_compare = 96;
   wire   tooHot;
 
   // Define the width of the Fibonnaci number storage register
